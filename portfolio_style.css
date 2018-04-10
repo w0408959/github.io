@@ -192,30 +192,59 @@ nav ul {
 nav ul li:last-of-type {
 	margin-right: 0%;
 }
-
+nav:hover { 
+	background-color:#d9e1f5;
+}
 
 footer {
 	font-size: 0.9em;
 }
-.descriptions {
+
+header img { 
+	width: 1000px;
+	height: 200px;
+
+} 
+html { 
+	text-align: center; 
+} 
+/* code for main introduction */ 
+main{ 
 	border-style: solid;
-	border-color: #9e2db7;
-	border-width: thin;
-	} 
-.intro {
-	border-style: solid;
-	border-color: #9e2db7;
-	border-width: thin;
-	} 
-	
+	border-color: #abbde9;
+	border-width: 5px;
+	margin-left: auto; 
+	margin-right: auto;
+	width:80%;
+	text-align: center; 
+}
+nav { 
+	text-align: center; 
+	}
+/*code for list, put in borders, centers code */ 
 ul { 
-	margin: 0;
-	padding: 0;
-	overflow: hidden; 
-	background-color: #b7dfe8;
+	border-style:solid; 
+	border-color:#d9e1f5;
+	border-width: thin;
+	background-color:#d9e1f5;
+	align-content: center; 
+	margin-left: auto; 
+	margin-right: auto;
 
 }
-
+/* code to put border around list on first page, and align it*/ 
+article ul{ 
+border-style: solid;
+	border-color: #abbde9;
+	border-width: 5px;
+	width:80%;
+	align-content: center; 
+	margin-left: auto; 
+	margin-right: auto;
+	font-size: 1.3em; 
+}
+	
+	
 
 /* =============================================
 	Desktop layout styles used by  devices
@@ -223,18 +252,17 @@ ul {
    =============================================
 */
 
-@media only screen and (min-width: 769px) {
 html, body {
 	font-size: 20px;
 }
 
 html {
-	background-color: #7a9ce9 ;
+	background-color: #394C78 ;
 	margin: 0px auto;
 }
 body {
 	width: 88.2%;
-	max-width: 900px;
+	max-width: 1000px;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
 	margin: 0px auto auto auto;
@@ -246,7 +274,4 @@ body {
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
 }
 
-
-
-}
 
